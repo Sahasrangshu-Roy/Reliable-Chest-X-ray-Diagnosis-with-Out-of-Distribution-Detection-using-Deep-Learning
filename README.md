@@ -23,7 +23,7 @@ Features Energy Score & Mahalanobis OOD detection algorithms, risk mitigation st
 
 ---
 
-## ❓ Why is it Needed
+##  Why is it Needed ❓
 
 Deep neural networks deployed in clinical radiology often suffer from **overconfident misclassifications** when exposed to **Out-of-Distribution (OOD)** inputs—such as scans from unfamiliar scanner manufacturers, corrupted DICOM images, non-chest radiographs, or unexpected patient demographics.
 
