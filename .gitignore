@@ -1,0 +1,47 @@
+# Large Model Weights (exceeds GitHub file size limit)
+*.pth
+*.pt
+*.bin
+*.onnx
+*.safetensors
+best_model.pth
+chest_ood_app/best_model.pth
+
+# Legacy Monolithic Script (replaced by modular src/ package)
+chest_ood.py
+
+# Datasets & Local Large Data Files
+images/
+images_*/
+chexpert/
+*.csv
+Data_Entry_2017.csv
+train_val_list.txt
+test_list.txt
+session_data.pkl
+*.pkl
+
+# Explicitly Include Sample ID and OOD Reference Image Folders
+!ID/
+!ID/*
+!OOD/
+!OOD/*
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+chest_ood_app/venv/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDE & System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
