@@ -103,9 +103,6 @@ with col2:
     if uploaded_file:
         # Check model file existence
         model_path = "best_model.pth"
-        if not os.path.exists(model_path) and os.path.exists("chest_ood_app/best_model.pth"):
-            model_path = "chest_ood_app/best_model.pth"
-
         model, device = load_cached_model(model_path)
         
         if model is None:
